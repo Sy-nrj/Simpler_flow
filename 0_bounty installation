@@ -32,7 +32,7 @@ sudo apt install cewl -y
 
 
 sudo snap install seclists -y 
-sudo apt install sublist3r -y 
+pip3 install sublist3r 
 sudo snap install amass -y 
 
 
@@ -48,9 +48,6 @@ sudo apt-get --assume-yes install git make gcc -y
 git clone https://github.com/robertdavidgraham/masscan
 cd masscan && make && cd ..
 
-# Webanalyze
-git clone https://github.com/janwojdyla/webanalyze.git
-cd webanalyze && go build && sudo cp webanalyze /usr/bin && cd ..
 
 
 #  Masscan
